@@ -3,28 +3,70 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Noto Sans Arabic", sans-serif;
+
 }
-body{
-    height: 3000px;
-}
+
+
 .container-fluid {
     width: 100%;
     overflow: hidden;
 }
-/* Navbar */
-.py-1{
+
+.py-1 {
     padding: 1% 0;
 }
-nav{
-   
+
+.p-top-2 {
+    padding-top: 2%;
+}
+
+.p-top-4 {
+    padding-top: 4%;
+}
+
+.p-top-6 {
+    padding-top: 6%;
+}
+
+.p-top-8 {
+    padding-top: 8%;
+}
+
+.my-1 {
+    margin: 1% 0;
+}
+
+.mx-2 {
+    margin: 0 2%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Fonts */
+.font-Poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.font-Raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+
+/* Navbar */
+nav {
     background-color: white;
-    position:sticky;
+    position: fixed;
     top: 0;
 }
+
 .navbar {
-   
-    width: 32%;
+    width: 33%;
     display: inline-block;
     /* background-color: red; */
 }
@@ -40,7 +82,6 @@ nav{
 }
 
 .link {
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     text-decoration: none;
     color: #8D8D8D;
@@ -53,7 +94,6 @@ nav{
 }
 
 .navbar button {
-    font-family: "Poppins", sans-serif;
     font-size: 1rem;
     padding: 2.7% 10%;
     margin-left: 50%;
@@ -62,8 +102,47 @@ nav{
     background-color: #00A6FB;
     border-radius: 0.5rem;
 }
-button:hover{
+
+button:hover {
     box-shadow: 0px 0px 5px black;
 }
 
 /* Screen1 */
+.screen1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("../imgs/background-screen1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+.screen1 .disc {
+    font-size: 3.25rem;
+    letter-spacing: 0.3rem;
+    /* background-color: yellow; */
+}
+
+.screen1 p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 160%;
+
+}
+
+.item-img {
+    width: 100%;
+    height: 158px;
+}
+
+.screen1 .item {
+    display: inline-block;
+    width: 19.7rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0 0 0.75rem 0.75rem;
+    background-color: #ffffff;
+    color: #001F3F;
+
+}
