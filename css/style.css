@@ -22,6 +22,10 @@
     width: 100%;
     overflow: hidden;
 }
+.container{
+    width:80%;
+    margin: 0 auto;
+}
 .d-inline-block{
     display: inline-block;
 }
@@ -180,7 +184,9 @@ button:hover {
 }
 
 /* Screen 2 */
-
+.screen2{
+    padding: 50px 0;
+}
 .screen2 h2{
     text-align: center;
     color: var(--maincolor);
@@ -218,3 +224,33 @@ button:hover {
     padding:0 1%;
 }
 
+.screen3{
+    background-color: #BBD0E6;
+    padding: 50px 0;
+}
+.screen3 .content {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+    padding-right: 5%;
+}
+.screen3 .content h3 {
+    font-size: 3rem;
+    color: var(--maincolor);
+}
+.screen3 .content p {
+    padding-top:10px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color:#767676;
+}
+.screen3 .image {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5%;
+}
+.screen3 .image img{
+    width: 100%;
+}
