@@ -6,7 +6,18 @@
 
 }
 
-
+:root{
+    --maincolor: #001F3F;
+}
+.main-color{
+    color: #001F3F;
+}
+.second-color{
+    color: #5F5F5F;
+}
+.third-color{
+    color: #8D8D8D;
+}
 .container-fluid {
     width: 100%;
     overflow: hidden;
@@ -14,6 +25,9 @@
 
 .py-1 {
     padding: 1% 0;
+}
+.py-4{
+    padding: 4% 0;
 }
 
 .p-top-2 {
@@ -35,10 +49,17 @@
 .my-1 {
     margin: 1% 0;
 }
+.my-4{
+     margin: 4% 0;
+}
 
 .mx-2 {
     margin: 0 2%;
 }
+.mx-3 {
+    margin: 0 3%;
+}
+
 
 .underline {
     text-decoration: underline;
@@ -90,7 +111,7 @@ nav {
 }
 
 .link:hover {
-    color: #001F3F;
+    color: var(--maincolor);
 }
 
 .navbar button {
@@ -109,7 +130,7 @@ button:hover {
 
 /* Screen1 */
 .screen1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("../imgs/background-screen1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("../imgs/Hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -143,6 +164,43 @@ button:hover {
     padding: 1rem;
     border-radius: 0 0 0.75rem 0.75rem;
     background-color: #ffffff;
-    color: #001F3F;
+    color: var(--maincolor);
 
+}
+
+/* Screen 2 */
+
+.screen2 h2{
+    text-align: center;
+    color: var(--maincolor);
+    font-size: 3.25rem;
+}
+.card{
+    display: inline-block;
+    width: 25%;
+    border:1px solid #BCD1E7;
+    border-radius: 18px;
+    padding: 2%;
+}
+.card img{
+   width:4rem;
+   aspect-ratio: 1/1;
+   border-radius: 50%;
+   border: 2px solid #D9D9D9;
+   display: inline-block;
+   vertical-align: bottom;
+}
+.card .name-job{
+    /* background-color: red; */
+    display: inline-block;
+    font-size: 1.1rem;
+
+}
+.card .brief{
+    line-height:2rem;
+}
+.card table{
+    font-size: 2rem;
+    color: var(--maincolor);
+    padding:0 1%;
 }
