@@ -97,6 +97,7 @@ nav {
 .navbar {
     width: 33%;
     display: inline-block;
+    text-align: center;
     /* background-color: red; */
 }
 
@@ -104,8 +105,6 @@ nav {
     width: 22%;
     /* background-color: red; */
     margin-top: 2%;
-    margin-left: 25%;
-    /* padding-bottom: 2%; */
     vertical-align: middle;
     filter: invert();
 }
@@ -115,8 +114,9 @@ nav {
     font-weight: 600;
     text-decoration: none;
     color: #8D8D8D;
-    padding: 0 1.8rem;
+    padding: 0 0.9rem;
     /* background-color: green; */
+   
 }
 
 .link:hover {
