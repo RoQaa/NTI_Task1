@@ -22,7 +22,9 @@
     width: 100%;
     overflow: hidden;
 }
-
+.d-inline-block{
+    display: inline-block;
+}
 .py-1 {
     padding: 1% 0;
 }
@@ -45,6 +47,12 @@
 .p-top-8 {
     padding-top: 8%;
 }
+.p-bottom-33{
+    padding-bottom: 33%;
+}
+.p-bottom-52{
+    padding-bottom: 52%;
+}
 
 .my-1 {
     margin: 1% 0;
@@ -57,7 +65,7 @@
     margin: 0 2%;
 }
 .mx-3 {
-    margin: 0 3%;
+    margin: 0 4%;
 }
 
 
@@ -103,6 +111,7 @@ nav {
 }
 
 .link {
+    font-size: 1.1rem;
     font-weight: 600;
     text-decoration: none;
     color: #8D8D8D;
@@ -115,7 +124,7 @@ nav {
 }
 
 .navbar button {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 2.7% 10%;
     margin-left: 50%;
     border: none;
@@ -178,6 +187,8 @@ button:hover {
 .card{
     display: inline-block;
     width: 25%;
+    /* height: 420px; */
+    vertical-align: top;
     border:1px solid #BCD1E7;
     border-radius: 18px;
     padding: 2%;
@@ -203,4 +214,21 @@ button:hover {
     font-size: 2rem;
     color: var(--maincolor);
     padding:0 1%;
+}
+
+/* Screen 3 */
+.screen3{
+    padding: 15%;
+    background-color: #BCD1E7;
+}
+.screen3 .title{
+    font-size: 7rem;
+    font-weight: 600;
+}
+.screen3 .content{
+    font-size: 3rem;
+    width: 84%;
+}
+.screen3 img{
+    width: 15rem;
 }
