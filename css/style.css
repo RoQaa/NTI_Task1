@@ -48,10 +48,10 @@
     padding-top: 8%;
 }
 .p-bottom-33{
-    padding-bottom: 33%;
+    padding-bottom: 15%;
 }
 .p-bottom-52{
-    padding-bottom: 52%;
+    padding-bottom: 23%;
 }
 
 .my-1 {
@@ -60,7 +60,9 @@
 .my-4{
      margin: 4% 0;
 }
-
+.mx-1{
+       margin: 0 1%;
+}
 .mx-2 {
     margin: 0 2%;
 }
@@ -186,7 +188,7 @@ button:hover {
 }
 .card{
     display: inline-block;
-    width: 25%;
+    width: 30%;
     /* height: 420px; */
     vertical-align: top;
     border:1px solid #BCD1E7;
@@ -216,19 +218,3 @@ button:hover {
     padding:0 1%;
 }
 
-/* Screen 3 */
-.screen3{
-    padding: 15%;
-    background-color: #BCD1E7;
-}
-.screen3 .title{
-    font-size: 7rem;
-    font-weight: 600;
-}
-.screen3 .content{
-    font-size: 3rem;
-    width: 84%;
-}
-.screen3 img{
-    width: 15rem;
-}
