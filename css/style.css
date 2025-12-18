@@ -6,33 +6,41 @@
 
 }
 
-:root{
+:root {
     --maincolor: #001F3F;
 }
-.main-color{
+
+.main-color {
     color: #001F3F;
 }
-.second-color{
+
+.second-color {
     color: #5F5F5F;
 }
-.third-color{
+
+.third-color {
     color: #8D8D8D;
 }
+
 .container-fluid {
     width: 100%;
     overflow: hidden;
 }
-.container{
-    width:80%;
+
+.container {
+    width: 80%;
     margin: 0 auto;
 }
-.d-inline-block{
+
+.d-inline-block {
     display: inline-block;
 }
+
 .py-1 {
     padding: 1% 0;
 }
-.py-4{
+
+.py-4 {
     padding: 4% 0;
 }
 
@@ -51,25 +59,31 @@
 .p-top-8 {
     padding-top: 8%;
 }
-.p-bottom-33{
+
+.p-bottom-33 {
     padding-bottom: 15%;
 }
-.p-bottom-52{
+
+.p-bottom-52 {
     padding-bottom: 23%;
 }
 
 .my-1 {
     margin: 1% 0;
 }
-.my-4{
-     margin: 4% 0;
+
+.my-4 {
+    margin: 4% 0;
 }
-.mx-1{
-       margin: 0 1%;
+
+.mx-1 {
+    margin: 0 1%;
 }
+
 .mx-2 {
     margin: 0 2%;
 }
+
 .mx-3 {
     margin: 0 4%;
 }
@@ -122,7 +136,7 @@ nav {
     color: #8D8D8D;
     padding: 0 0.9rem;
     /* background-color: green; */
-   
+
 }
 
 .link:hover {
@@ -184,50 +198,57 @@ button:hover {
 }
 
 /* Screen 2 */
-.screen2{
+.screen2 {
     padding: 50px 0;
 }
-.screen2 h2{
+
+.screen2 h2 {
     text-align: center;
     color: var(--maincolor);
     font-size: 3.25rem;
 }
-.card{
+
+.card {
     display: inline-block;
     width: 30%;
     /* height: 420px; */
     vertical-align: top;
-    border:1px solid #BCD1E7;
+    border: 1px solid #BCD1E7;
     border-radius: 18px;
     padding: 2%;
 }
-.card img{
-   width:4rem;
-   aspect-ratio: 1/1;
-   border-radius: 50%;
-   border: 2px solid #D9D9D9;
-   display: inline-block;
-   vertical-align: bottom;
+
+.card img {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid #D9D9D9;
+    display: inline-block;
+    vertical-align: bottom;
 }
-.card .name-job{
+
+.card .name-job {
     /* background-color: red; */
     display: inline-block;
     font-size: 1.1rem;
 
 }
-.card .brief{
-    line-height:2rem;
-}
-.card table{
-    font-size: 2rem;
-    color: var(--maincolor);
-    padding:0 1%;
+
+.card .brief {
+    line-height: 2rem;
 }
 
-.screen3{
+.card table {
+    font-size: 2rem;
+    color: var(--maincolor);
+    padding: 0 1%;
+}
+
+.screen3 {
     background-color: #BBD0E6;
     padding: 50px 0;
 }
+
 .screen3 .content {
     width: 40%;
     display: inline-block;
@@ -235,22 +256,81 @@ button:hover {
     padding-top: 100px;
     padding-right: 5%;
 }
+
 .screen3 .content h3 {
     font-size: 3rem;
     color: var(--maincolor);
 }
+
 .screen3 .content p {
-    padding-top:10px;
+    padding-top: 10px;
     font-size: 1.2rem;
     line-height: 1.6;
-    color:#767676;
+    color: #767676;
 }
+
 .screen3 .image {
     width: 50%;
     display: inline-block;
     vertical-align: top;
     padding-left: 5%;
 }
-.screen3 .image img{
+
+.screen3 .image img {
     width: 100%;
+}
+
+
+
+/* Screen 4 */
+.screen4 {
+   
+    margin-top: 5%;
+}
+
+.screen4 .test{
+       position: relative;
+        background-color: rgb(204, 14, 14);
+       width: 100%;
+}
+
+.screen4 .background-image {
+    position: absolute;
+    /* margin: 5%; */
+    left:10%;
+    width: 50%
+}
+.screen4 .background-image img{
+    width: 100%;
+}
+
+.screen4 .content {
+    color: white;
+    background-color: #00A6FB;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.screen4 .content h3 {
+    font-size: 2.5rem;
+    padding: 3%;
+}
+
+.screen4 .content p {
+    font-size: 1.3rem;
+    padding: 3%;
+}
+
+.screen4 .content button{
+    padding: 4%;
+    color: #2947A9;
+    background-color: white;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    margin: 3%;
+    border-radius: 18px;
 }
